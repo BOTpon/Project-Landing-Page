@@ -7,7 +7,7 @@ body {
 
 a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   color: #e5e7eb;
 }
 
@@ -72,9 +72,9 @@ nav div {
 .quote {
   max-width: 600px;
   font-size: 26px;
-  font-weight: lighter;
   font-style: italic;
   color: #1f2937;
+  font-weight: 100;
 }
 
 .mom {
@@ -95,9 +95,9 @@ nav div {
   justify-content: space-around;
   gap: 40px;
   background-color: #3882f6;
-  padding: 25px;
+  padding: 35px;
   width: 700px;
-  border-radius: 5px;
+  border-radius: 8px;
   color: white;
 }
 
@@ -134,4 +134,9 @@ footer {
 
 .hdr-subtext {
   font-size: 14px;
+}
+
+.hdr-links {
+  display: flex;
+  gap: 18px;
 }
